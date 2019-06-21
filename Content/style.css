@@ -8589,7 +8589,7 @@ body.md-skin {
   box-shadow: 0 0 20px rgba(33,33,33,.2); 
 }
 body{
-	background-image: url("Images/background.jpg");
+	background-image: url("../Images/background.jpg");
 	background-size: cover;
 	color: #3d4f5d;
 }
@@ -8604,4 +8604,26 @@ body{
 .title{
 	font-weight:100;
 	color: #b36f7c;
+}
+.ucon{
+	color:#0000006b;
+}
+@media only screen and (max-width: 450px) {
+#title{
+	font-size:20px;
+}
+.title{
+	font-size:20px;
+}
+.ibox-content {
+    padding: 20px 15px 20px 15px;
+}
+}
+@media only screen and (max-width: 350px) {
+#title{
+	font-size:18px;
+}
+.title{
+	font-size:18px;
+}
 }
